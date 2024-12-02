@@ -1,0 +1,471 @@
+body {
+  font-family: "Inter";
+}
+.register {
+  color :#002766;
+}
+footer{
+  color :#002766;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-top:1px solid #002766;
+}
+/* all styles from here are in section-2 class */
+.section-2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  max-width: 100%;
+  width: 100%;
+}
+.grid-1 {
+  grid-area: 1 / 1 / 2 / 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #75acd8;
+}
+.grid-2 {
+  grid-area: 2 / 1 / 4 / 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grid-3 {
+  grid-area: 1 / 3 / 4 / 4;
+}
+.grid-4 {
+  grid-area: 1 / 4 / 4 / 5;
+}
+/* .grid-1,
+.grid-2,
+.grid-3,
+.grid-4 {
+  border: 1px solid lightblue;
+} */
+.grid-1 h1 {
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+}
+.grid-2 p {
+  font-size: 18px;
+  width: 300px;
+  color: #036161d3;
+}
+.grid-3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.grid-4 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* end for section-2 */
+/* all styles from here are in section-3 class */
+.section-3 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  width: 100%;
+  max-width: 100%;
+}
+.grid-5 {
+  grid-area: 1 / 1 / 2 / 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8d8a8b;
+}
+.grid-6 {
+  grid-area: 2 / 1 / 4 / 2;
+}
+.grid-7 {
+  grid-area: 2 / 2 / 4 / 3;
+}
+.grid-8 {
+  grid-area: 1 / 3 / 4 / 4;
+}
+.grid-9 {
+  grid-area: 1 / 4 / 4 / 5;
+}
+.grid-5 h1 {
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+}
+.grid-6 h3 {
+  color: #036161d3;
+}
+.grid-6 p {
+  color: #036161d3;
+}
+.grid-7 h3 {
+  color: #036161d3;
+}
+.grid-7 p {
+  color: #036161d3;
+}
+/* .grid-5,
+.grid-6,
+.grid-7,
+.grid-8,
+.grid-9 {
+  border: 1px solid lightblue;
+} */
+.grid-8 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.grid-9 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* end for section-3 */
+
+/* Sales and Purchases Secton */
+.grid-10 {
+  grid-area: 1 / 1 / 2 / 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5b788a;
+}
+.grid-11 {
+  grid-area: 2 / 1 / 4 / 2;
+}
+.grid-12 {
+  grid-area: 2 / 2 / 4 / 3;
+}
+.grid-13 {
+  grid-area: 1 / 3 / 4 / 4;
+}
+.grid-14 {
+  grid-area: 1 / 4 / 4 / 5;
+}
+.grid-12 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.grid-13 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.grid-14 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.grid-10 h1 {
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+}
+.grid-11 p {
+  font-size: 18px;
+  width: 300px;
+  color: #036161d3;
+}
+/* End for Sales and Purchases  */
+header {
+  background-color: #ececec;
+  padding: 20px;
+}
+.header-main-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-a-tag-div {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.ships-commercial-h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header-nav {
+  color: #002766;
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 15px;
+  border: none;
+}
+.header-nav:hover {
+  border-bottom: 3px solid #002766;
+  text-decoration: none;
+  transition-duration: 0.1s;
+  transition-delay: 0.3s;
+}
+a {
+  text-decoration: none;
+  border-bottom: 1px solid lightblue;
+  color: #464646;
+}
+a:hover {
+  text-decoration: underline;
+}
+.top-page-imgs {
+  display: flex;
+  justify-content: space-around;
+  /* background-image: url(./../images/pexels-photo-ocean\ view\ 2.jpeg); */
+}
+.ships-menu-div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.top-img-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.top-img-list a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-weight: bold;
+  color: #8d8a8b;
+  font-size: 20px;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.scrolling-image {
+  width: 100%; /* Container width */
+  overflow: hidden; /* Hide anything outside the container */
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.scrolling-image img {
+  /* width: 100%;            Set image width  */
+  animation: scroll 10s linear infinite; /* Apply the scroll animation */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%); /* Start outside on the right */
+  }
+  100% {
+    transform: translateX(-100%); /* End outside on the left */
+  }
+}
+.scrolling-image-2 {
+  width: 100%; /* Container width */
+  overflow: hidden; /* Hide anything outside the container */
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+.ships-commercial-h1 h1 {
+  margin-bottom: 0;
+  padding-bottom: 10px;
+  font-size: 27px;
+  color: #8d8a8b;
+}
+.logo {
+  width: 150px;
+}
+.ships-commercial-h1 p {
+  font-size: 23px;
+  margin-top: 0;
+  color: #8d8a8b;
+}
+.scrolling-image-2 img {
+  /* width: 100%;            Set image width  */
+  animation: scroll-right 10s linear infinite; /* Apply the scroll animation */
+}
+
+@keyframes scroll-right {
+  0% {
+    transform: translateX(-100%); /* Start outside on the left */
+  }
+  100% {
+    transform: translateX(100%); /* End outside on the right */
+  }
+}
+
+@media only screen and (max-width: 428px) {
+
+  .logo {
+    width: 100px;
+  }
+  .scrolling-image img {
+    width: 25vh;           /*  Set image width  */
+    animation: scroll 10s linear infinite; /* Apply the scroll animation */
+  }
+  .scrolling-image-2 img {
+    width: 25vh;           /*  Set image width  */
+    animation: scroll-right 10s linear infinite; /* Apply the scroll animation */
+  }
+  .scrolling-image-2 {
+    width: 100%; /* Container width */
+    overflow: hidden; /* Hide anything outside the container */
+  }
+  .ships-commercial-h1 h1 {
+    font-size: 20px;
+  }
+  .ships-commercial-h1 p {
+    font-size: 18px;
+  }
+  .header-main-div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .header-a-tag-div {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+  .header-a-tag-div a {
+    font-size: 12px;
+  }
+  .top-page-imgs {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .grid-10 h1 {
+    font-size: 24px;
+  }
+  .grid-1 h1 {
+    font-size: 24px;
+  }
+  .grid-5 h1 {
+    font-size: 24px;
+  }
+  .grid-11 p {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+  }
+  .grid-6 p {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+  }
+  .grid-6 h3 {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+  }
+  .grid-7 p {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+  }
+  .grid-7 h3 {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+  }
+}
+
+
+@media only screen and (max-width: 834px) {
+  .logo {
+    width: 100px;
+  }
+  .scrolling-image img {
+    width: 25vh;           /*  Set image width  */
+    animation: scroll 10s linear infinite; /* Apply the scroll animation */
+  }
+  .scrolling-image-2 img {
+    width: 25vh;           /*  Set image width  */
+    animation: scroll-right 10s linear infinite; /* Apply the scroll animation */
+  }
+  .scrolling-image-2 {
+    width: 100%; /* Container width */
+    overflow: hidden; /* Hide anything outside the container */
+  }
+  .ships-commercial-h1 h1 {
+    font-size: 20px;
+  }
+  .ships-commercial-h1 p {
+    font-size: 18px;
+  }
+  .header-main-div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .header-a-tag-div {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+  .header-a-tag-div a {
+    font-size: 18px;
+  }
+  .top-page-imgs {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .grid-10 h1 {
+    font-size: 24px;
+  }
+  .grid-1 h1 {
+    font-size: 24px;
+  }
+  .grid-5 h1 {
+    font-size: 24px;
+  }
+  .grid-11 p {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+  }
+  .grid-6 p {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+  }
+  .grid-6 h3 {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+  }
+  .grid-7 p {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+  }
+  .grid-7 h3 {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+  }
+}
